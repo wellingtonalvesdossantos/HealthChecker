@@ -8,7 +8,7 @@ namespace HealthChecker.Core.ExtensionMethods
     {
         public static void CheckHealth(this IHealthChecker obj)
         {
-            obj.HealthChecker.Validate();
+            obj.CheckerContainer.Validate();
         }
     }
 }

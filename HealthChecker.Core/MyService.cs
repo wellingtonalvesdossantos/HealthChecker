@@ -1,6 +1,5 @@
 ﻿using HealthChecker.Core.Builders;
 using HealthChecker.Core.Checkers;
-using HealthChecker.Core.Types;
 using MySql.Data.MySqlClient;
 
 namespace HealthChecker.Core
@@ -10,7 +9,7 @@ namespace HealthChecker.Core
         private readonly IConfigProvider _configProvider;
         private readonly ILogger _logger;
 
-        public CheckerContainer HealthChecker
+        public CheckerContainer CheckerContainer
         {
             get
             {

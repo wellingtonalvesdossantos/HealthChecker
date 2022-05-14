@@ -1,5 +1,4 @@
-﻿using HealthChecker.Core.Types;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 
 namespace HealthChecker.Core

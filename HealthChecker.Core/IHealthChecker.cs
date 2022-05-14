@@ -2,6 +2,6 @@
 {
     public interface IHealthChecker
     {
-        CheckerContainer HealthChecker { get; }
+        CheckerContainer CheckerContainer { get; }
     }
 }
